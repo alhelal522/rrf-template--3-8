@@ -1,0 +1,148 @@
+.container{
+    max-width: 1170px;
+    margin: 0 auto;
+}
+
+.roboto{
+    font-family: "Roboto", sans-serif;
+}
+
+.h-logo, button, a{
+    cursor: pointer;
+}
+
+
+
+.btn{
+    cursor: pointer;
+}
+
+.ah:hover, .active{
+    border-bottom: 2px solid #DD3142;
+    color: #DD3142;
+}
+
+header {
+    box-shadow: 0 5px 6px rgba(182, 182, 182, 0.3);
+}
+
+
+
+.pb{
+    padding-inline: .25rem;
+}
+
+.wel-bg{
+    background: url(/assets/images/image3.png);
+    background-position: center;
+    background-size: cover;
+    object-fit: contain;
+    background-repeat: no-repeat;
+    height: 405px;
+    width: 1170px;
+}
+
+.bg-hamar{
+    background: url(/assets/images/image5.png);
+    background-position: center;
+    background-size: cover;
+    object-fit: contain;
+    background-repeat: no-repeat;
+    height: 255px;
+    width: 100%;
+}
+
+
+.black-bg{
+    background: url(/assets/images/image7.png);
+    background-position: center;
+    background-size: cover;
+    object-fit: contain;
+    background-repeat: no-repeat;
+    height: 316px;
+    width: 100%;
+    position: relative;
+    z-index: 11;
+}
+
+.black-bg::after{
+    content: '';
+    position: absolute;
+    height: 316px;
+    width: 100%;
+    top: 0;
+    left: 0;
+    background-color: black;
+    opacity: .5;
+}
+
+.blabk-text{
+    z-index: 20;
+    opacity: 1;
+}
+
+.span-r span{
+    display: none;
+}
+
+.about-bg{
+    background: url(/assets/images/image3.png);
+    background-position: center;
+    background-size: cover;
+    object-fit: contain;
+    background-repeat: no-repeat;
+    height: 304px;
+    width: 100%;
+    position: relative;
+}
+
+.about-bg-2{
+    background: url(/assets/images/about-overlay.png);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    position: absolute;
+    height: 304px;
+    width: 100% !important;
+    top: 60px;
+    left: 0;
+}
+
+.single-card{
+    box-shadow: 0px 4px 24px 0px rgba(0, 0, 0, 0.05);
+}
+
+
+
+
+/* Dots container center align */
+.slider-test .slick-dots {
+  display: flex !important;
+  justify-content: center;
+  align-items: center;
+  margin-top: 20px;
+  gap: 8px; /* space between dots */
+  list-style: none;
+}
+
+/* Remove any number display if exists (usually not shown by default) */
+.slider-test .slick-dots li {
+  margin: 0;
+}
+
+/* Dot style */
+.slider-test .slick-dots li button {
+  font-size: 0; /* hide number/text */
+  width: 10px;
+  height: 10px;
+  border-radius: 50%;
+  background-color: #ccc; /* inactive color */
+  border: none;
+}
+
+/* Active dot */
+.slider-test .slick-dots li.slick-active button {
+  background-color: #000; /* active color */
+}
+
+
